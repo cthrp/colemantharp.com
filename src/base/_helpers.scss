@@ -1,0 +1,35 @@
+// Grid
+.wrap {
+  width: 100%;
+  max-width: 1200px;
+
+}
+
+// Colors
+.t-black { color: $text-black }
+.bg-white { background-color: $bg-white }
+
+// Type
+
+h1 {
+  font-size: 42px;
+  font-weight: 400;
+  line-height: 2;
+}
+
+h2 {
+  font-size: 36px;
+  font-weight: 400;
+  font-weight: $text-weight-regular
+}
+
+p {
+  font-size: 18px;;
+  color: rgba(54,54,65,0.70);
+  letter-spacing: 0;
+  line-height: 2;
+}
+
+a {
+  text-decoration: none;
+}
