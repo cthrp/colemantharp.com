@@ -73,7 +73,6 @@ h1 {
     display: block;
   }
   nav {
-    display: inline-block;
     float: left;
   }
   .info {
@@ -85,7 +84,7 @@ h1 {
 }
 @media(min-width: 1098px){
 	.item {
-		height: 534px;
+		max-height: 534px;
 	}
   .image {
     float: right;
@@ -113,7 +112,7 @@ h1 {
 
 .item {
   margin-top: 180px;
-  height: 534px;
+  max-height: 534px;
 }
 
 .role {
