@@ -12,8 +12,6 @@ $bg-white: #FFFFFF !default;
 $blue: #1C94E9 !default;
 $inactive: #363741 !default;
 
-// Wraps
-$wrap: 100% !default;
 
 // grid
 
@@ -29,7 +27,8 @@ body {
 }
 
 .wrap {
-    width: 1180px;
+    width: 86%;
+    max-width: 1180px;
     margin: 0 auto;
 }
 .flexbox {
