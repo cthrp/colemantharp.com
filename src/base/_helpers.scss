@@ -47,18 +47,18 @@ a {
 
 @font-face {
 	font-family: 'Graphik';
-	src: url('Graphik-MediumItalic.eot');
-	src: url('Graphik-MediumItalic.eot?#iefix') format('embedded-opentype'),
-		url('Graphik-MediumItalic.woff') format('woff'),
-		url('Graphik-MediumItalic.ttf') format('truetype');
+	src: url('/fonts/Graphik-MediumItalic.eot');
+	src: url('/fonts/Graphik-MediumItalic.eot?#iefix') format('embedded-opentype'),
+		url('/fonts/Graphik-MediumItalic.woff') format('woff'),
+		url('/fonts/Graphik-MediumItalic.ttf') format('truetype');
 	font-weight: 500;
 	font-style: italic;
 }
 
 @font-face {
 	font-family: 'Graphik';
-	src: url('Graphik-LightItalic.eot');
-	src: url('Graphik-LightItalic.eot?#iefix') format('embedded-opentype'),
+	src: url('/fonts/Graphik-LightItalic.eot');
+	src: url('/fonts/Graphik-LightItalic.eot?#iefix') format('embedded-opentype'),
 		url('Graphik-LightItalic.woff') format('woff'),
 		url('Graphik-LightItalic.ttf') format('truetype');
 	font-weight: 300;
@@ -67,38 +67,8 @@ a {
 
 @font-face {
 	font-family: 'Graphik';
-	src: url('Graphik-Regular.eot');
-	src: url('Graphik-Regular.eot?#iefix') format('embedded-opentype'),
-		url('Graphik-Regular.woff') format('woff'),
-		url('Graphik-Regular.ttf') format('truetype');
-	font-weight: normal;
-	font-style: normal;
-}
-
-@font-face {
-	font-family: 'Graphik';
-	src: url('Graphik-SemiboldItalic.eot');
-	src: url('Graphik-SemiboldItalic.eot?#iefix') format('embedded-opentype'),
-		url('Graphik-SemiboldItalic.woff') format('woff'),
-		url('Graphik-SemiboldItalic.ttf') format('truetype');
-	font-weight: 600;
-	font-style: italic;
-}
-
-@font-face {
-	font-family: 'Graphik';
-	src: url('Graphik-RegularItalic.eot');
-	src: url('Graphik-RegularItalic.eot?#iefix') format('embedded-opentype'),
-		url('Graphik-RegularItalic.woff') format('woff'),
-		url('Graphik-RegularItalic.ttf') format('truetype');
-	font-weight: normal;
-	font-style: italic;
-}
-
-@font-face {
-	font-family: 'Graphik';
-	src: url('Graphik-Bold.eot');
-	src: url('Graphik-Bold.eot?#iefix') format('embedded-opentype'),
+	src: url('/fonts/Graphik-Bold.eot');
+	src: url('/fonts/Graphik-Bold.eot?#iefix') format('embedded-opentype'),
 		url('Graphik-Bold.woff') format('woff'),
 		url('Graphik-Bold.ttf') format('truetype');
 	font-weight: bold;
@@ -107,8 +77,8 @@ a {
 
 @font-face {
 	font-family: 'Graphik';
-	src: url('Graphik-Medium.eot');
-	src: url('Graphik-Medium.eot?#iefix') format('embedded-opentype'),
+	src: url('/fonts/Graphik-Medium.eot');
+	src: url('/fonts/Graphik-Medium.eot?#iefix') format('embedded-opentype'),
 		url('Graphik-Medium.woff') format('woff'),
 		url('Graphik-Medium.ttf') format('truetype');
 	font-weight: 500;
@@ -117,8 +87,8 @@ a {
 
 @font-face {
 	font-family: 'Graphik';
-	src: url('Graphik-Light.eot');
-	src: url('Graphik-Light.eot?#iefix') format('embedded-opentype'),
+	src: url('/fonts/Graphik-Light.eot');
+	src: url('/fonts/Graphik-Light.eot?#iefix') format('embedded-opentype'),
 		url('Graphik-Light.woff') format('woff'),
 		url('Graphik-Light.ttf') format('truetype');
 	font-weight: 300;
