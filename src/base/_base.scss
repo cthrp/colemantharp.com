@@ -12,7 +12,7 @@ html {
 }
 
 header {
-    padding-top: 30px;
+    padding-top: 40px;
     height: 70px;
 }
 
@@ -57,19 +57,42 @@ h1 {
 .teaser {
     width: 100%;
     max-height: 534px;
-    // border-radius: 8px;
+    border-radius: 8px;
+}
+
+@media(max-width: 1097px){
+	.image, .info {
+    display: block;
+	}
+  .info {
+    margin-bottom: 50px;
+  }
+  form {
+    padding-top: 30px;
+  }
+}
+@media(min-width: 1098px){
+	.item {
+		height: 534px;
+	}
+  .image {
+    float: right;
+  }
+	.image, .info {
+		display: inline-block;
+	}
 }
 
 .image {
-  width: 100%;
+  display: block;
+  width: auto;
   max-width: 778px;
   float: right;
+  margin-bottom: 150px;
 }
 
 .info {
-  width: 320px;
-  max-width: 1200px;
-  float: left;
+  max-width: 320px;
 }
 
 .info h2 {
@@ -77,8 +100,7 @@ h1 {
 }
 
 .item {
-  margin-top: 100px;
-  margin-bottom: 220px;
+  margin-top: 170px;
   height: 534px;
 }
 
@@ -109,8 +131,8 @@ placeholder {
 
 
 input {
-  width: 48.6%;
-  margin-bottom: 15px;
+  width: 100%;
+  margin-bottom: 20px;
   height: 52px;
   font-family:inherit;
   font-size: 16px;
@@ -313,7 +335,8 @@ p.about {
 
 .avatar {
   margin-top: 140px;
+  height: 120px;
   width: 120px;
   margin-bottom: 20px;
-  border-radius: 100px;
+  border-radius: 100%;
 }
