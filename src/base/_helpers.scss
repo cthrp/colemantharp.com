@@ -37,20 +37,20 @@ a {
 
 @font-face {
 	font-family: 'Graphik';
-	src: url('Graphik-Semibold.eot');
-	src: url('Graphik-Semibold.eot?#iefix') format('embedded-opentype'),
-		url('Graphik-Semibold.woff') format('woff'),
-		url('Graphik-Semibold.ttf') format('truetype');
+	src: url('fonts/Graphik-Semibold.eot');
+	src: url('fonts/Graphik-Semibold.eot?#iefix') format('embedded-opentype'),
+		url('fonts/Graphik-Semibold.woff') format('woff'),
+		url('fonts/Graphik-Semibold.ttf') format('truetype');
 	font-weight: 600;
 	font-style: normal;
 }
 
 @font-face {
 	font-family: 'Graphik';
-	src: url('/fonts/Graphik-MediumItalic.eot');
-	src: url('/fonts/Graphik-MediumItalic.eot?#iefix') format('embedded-opentype'),
-		url('/fonts/Graphik-MediumItalic.woff') format('woff'),
-		url('/fonts/Graphik-MediumItalic.ttf') format('truetype');
+	src: url('fonts/Graphik-MediumItalic.eot');
+	src: url('fonts/Graphik-MediumItalic.eot?#iefix') format('embedded-opentype'),
+		url('fonts/Graphik-MediumItalic.woff') format('woff'),
+		url('fonts/Graphik-MediumItalic.ttf') format('truetype');
 	font-weight: 500;
 	font-style: italic;
 }
