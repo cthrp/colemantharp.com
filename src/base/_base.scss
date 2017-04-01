@@ -15,7 +15,7 @@ header {
     max-width: 100%;
     padding-top: 40px;
     height: 2%;
-    padding-bottom: 2%;
+    padding-bottom: 1%;
 }
 
 .active {
@@ -51,8 +51,9 @@ header a {
 
 h1 {
   line-height: 1.5;
-  display: block;
-  padding-bottom: 16%;
+
+  padding-bottom: 8%;
+
   max-width: 70%;
   color: $text-black;
 }
@@ -76,10 +77,13 @@ section.lead {
 	}
   header {
     display: block;
+    padding-bottom: 12px;
   }
-
   .info {
     margin-bottom: 50px;
+  }
+  nav {
+    float: left;
   }
   form {
     padding-top: 30px;
