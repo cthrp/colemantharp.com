@@ -12,8 +12,9 @@ html {
 }
 
 header {
+    max-width: 100%;
     padding-top: 40px;
-    height: 70px;
+    height: 2.3%;
 }
 
 .active {
@@ -33,6 +34,8 @@ a:hover {
 }
 
 nav {
+  color: $text-black;
+  display: inline-block;
   float: right;
 }
 
@@ -41,20 +44,21 @@ header a {
     font-weight: 400;
     font-size: 18px;
     padding-right: 34px;
+    float: left;
 }
 
-.logo {
-  width: 34px;
-  float: left;
-}
 
 h1 {
   line-height: 1.5;
-
   display: block;
+  margin-bottom: 16%;
   max-width: 70%;
-  margin-top: 180px;
-  margin-bottom: 220px;
+  color: $text-black;
+}
+
+section.lead {
+  margin-top: 16%;
+  margin-bottom: 16%;
 }
 
 ///// project
@@ -72,9 +76,7 @@ h1 {
   header {
     display: block;
   }
-  nav {
-    float: left;
-  }
+
   .info {
     margin-bottom: 50px;
   }
@@ -99,7 +101,6 @@ h1 {
   width: auto;
   max-width: 778px;
   float: right;
-  margin-bottom: 150px;
 }
 
 .info {
@@ -111,8 +112,10 @@ h1 {
 }
 
 .item {
-  margin-top: 180px;
-  max-height: 534px;
+  width: 100%;
+  height: 534px;
+  margin-bottom: 16%;
+  margin-top: 16%;
 }
 
 .role {
@@ -123,7 +126,7 @@ h1 {
 ///// contact form
 
 footer.footer {
-  margin-top: 180px;
+    margin-top: 16%;
 }
 
 .contact {
@@ -328,7 +331,7 @@ button:hover {
 
 .lead-about {
   background: #000;
-  margin-bottom: 180px;
+  margin-bottom: 4.9%;
 }
 
 .about {
