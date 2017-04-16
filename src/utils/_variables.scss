@@ -12,26 +12,9 @@ $bg-white: #FFFFFF !default;
 $blue: #1C94E9 !default;
 $inactive: #AFAFB3 !default;
 
-
-// grid
-
-/**********************************************
-* 1180 CSS Grid System - Fluid
-* by Chris Blackwell / chrisblackwell.me
-**********************************************/
-
-body {
-    width: 100%;
-    margin: 0;
-    padding: 0;
-}
-
+// Wrap
 .wrap {
-    width: 86%;
+    width: 90%;
     max-width: 1180px;
     margin: 0 auto;
-}
-.flexbox {
-    display: -webkit-flex;
-    display: flex;
 }

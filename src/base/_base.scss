@@ -1,21 +1,28 @@
+// General
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-html {
-  font-family: $text-font-stack;
-  color: $text-black;
-  background-color: $bg-white;
-  -webkit-font-smoothing: antialiased;
+body, html {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    font-family: $text-font-stack;
+    color: $text-black;
+    background-color: $bg-white;
+    -webkit-font-smoothing: antialiased;
 }
+
+// Navigation
 
 header {
     max-width: 100%;
     padding-top: 40px;
     height: 2%;
-    padding-bottom: 1%;
 }
 
 .active {
@@ -31,12 +38,12 @@ a:hover {
 }
 
 .home {
+  float: left;
   color: $text-black;
 }
 
 nav {
   color: $text-black;
-  display: inline-block;
   float: right;
 }
 
@@ -48,15 +55,7 @@ header a {
     float: left;
 }
 
-
-h1 {
-  line-height: 1.5;
-
-  padding-bottom: 8%;
-
-  max-width: 70%;
-  color: $text-black;
-}
+// Body
 
 section.lead {
   margin-top: 16%;
@@ -71,33 +70,29 @@ section.lead {
     border-radius: 8px;
 }
 
-@media(max-width: 1097px){
-	.image, .info {
-    display: block;
+@media(max-width: 1100px){
+  body {
+    min-height: none;
+    font-size: 90%;
+  }
+  .item {
+    margin-bottom: 1% !important;
+		max-height: 534px;
 	}
   header {
     display: block;
   }
-  .home {
-    padding-bottom: 14px;
-  }
   .info {
     margin-bottom: 50px;
-  }
-  nav {
-    float: left;
   }
   form {
     padding-top: 30px;
   }
 }
-@media(min-width: 1098px){
+@media(min-width: 1100px){
 	.item {
 		max-height: 534px;
 	}
-  .image {
-    float: right;
-  }
 	.image, .info {
 		display: inline-block;
 	}
@@ -126,7 +121,7 @@ section.lead {
 }
 
 .role {
-  padding-top: 20px;
+  margin-top: 12px;
 }
 
 
@@ -204,11 +199,6 @@ textarea[name=message]:focus {
   box-shadow: 0 1px 2px 0 rgba(0,0,0,0.07);
 }
 
-
-.role {
-  margin-bottom: 8%;
-}
-
 b {
   font-weight: 400;
   color: $text-black;
@@ -231,6 +221,22 @@ b {
 //    transition: 0.1s ease-in;
 // }
 
+// .btn-one {
+//   font-weight: $text-weight-medium;
+//   color: #000;
+//   padding: 14px 22px 14px 22px;
+//   -webkit-transition: 0.1s ease-in;
+//    -moz-transition: 0.1s ease-in;
+//    -o-transition: 0.1s ease-in;
+//    -ms-transition: 0.1s ease-in;
+//    transition: 0.1s ease-in;
+//    background: rgba(65,119,242,0.00);
+//    border: 1px solid rgba(54,54,65,0.14);
+//    border-radius: 4px;
+//    font-size: 16px;
+//    color: #2599EB;
+// }
+
 .btn-one {
   font-weight: $text-weight-medium;
   color: #000;
@@ -240,21 +246,18 @@ b {
    -o-transition: 0.1s ease-in;
    -ms-transition: 0.1s ease-in;
    transition: 0.1s ease-in;
-   /* Mask: */
-   background: rgba(65,119,242,0.00);
-   border: 1px solid rgba(54,54,65,0.14);
+   background: #2599EB;
    border-radius: 4px;
-   /* Read case study: */
-   font-family: MaisonNeue-Book;
    font-size: 16px;
-   color: #2599EB;
-   letter-spacing: 0;
-   line-height: 24px;
+   color: #fff;
 }
 
 .btn-one:hover {
-  border-bottom: solid 2px rgba(65,119,242, .2);
+  background: #2599EB;
+  background: #2885C9;
+  color: #fff;
 }
+
 
 
 
