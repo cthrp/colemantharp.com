@@ -58,15 +58,14 @@ header a {
 // Body
 
 section.lead {
-  margin-top: 16%;
-  margin-bottom: 16%;
+  margin-top: 20%;
+  margin-bottom: 10%;
 }
 
 ///// project
 
 .teaser {
-    width: 100%;
-    max-height: 534px;
+    max-width: 100%;
     border-radius: 8px;
 }
 
@@ -76,7 +75,7 @@ section.lead {
     font-size: 90%;
   }
   .item {
-    margin-bottom: 1% !important;
+    margin-bottom: 50% !important;
 		max-height: 534px;
 	}
   header {
@@ -99,9 +98,8 @@ section.lead {
 }
 
 .image {
-  display: block;
-  width: auto;
-  max-width: 778px;
+  height: 100%;
+  max-width: 1100px;
   float: right;
 }
 
