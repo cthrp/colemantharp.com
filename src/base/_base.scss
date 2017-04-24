@@ -90,12 +90,9 @@ img.teaser {
   header {
     display: block;
   }
-  form {
-    padding-top: 30px;
-  }
 }
 
-@media(max-width: 600px){
+@media(max-width: 730px){
   .info {
     width: 100% !important;
     float: none;
