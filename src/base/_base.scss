@@ -58,8 +58,9 @@ header a {
 // Body
 
 section.lead {
+  width: 70%;
   margin-top: 20%;
-  margin-bottom: 10%;
+  margin-bottom: 20%;
 }
 
 ///// project
@@ -107,11 +108,15 @@ img.teaser {
     padding-bottom: 30px;
   }
   .item {
-      margin-top: 10%;
+    margin-top: 10%;
   }
   .image {
     width: 100%;
     float: none;
+  }
+  .contact-form {
+    width: 100% !important;
+    float: none !important;
   }
 }
 
@@ -132,9 +137,7 @@ img.teaser {
 
 ///// contact form
 
-footer.footer {
-    margin-top: 16%;
-}
+
 
 .contact {
   background: #fff;
@@ -145,14 +148,12 @@ placeholder {
   color: #000;
 }
 
-.contact-info {
-  float: left;
-  width: 10%;
-}
+
 
 
 input {
   width: 100%;
+  max-width: 800px;
   margin-bottom: 20px;
   height: 52px;
   font-family:inherit;
@@ -181,6 +182,7 @@ input[type=text] {
 
 textarea[name=message] {
   width: 100%;
+  max-width: 800px;
   max-width: 800px;
   line-height: 1.5;
   height: 178px;
@@ -295,19 +297,20 @@ form.btn-one {
 }
 
 .contact-form {
-  width: 100%;
+  width: 70%;
   max-width: 800px;
   float: right;
-  padding-bottom: 220px;
+  padding-bottom: 20%;
 }
 
 .contact-info {
-  width: 320px;
+  margin-bottom: 32px;
+  /* width: 320px; */
+  width: 30%;
   float: left;
+
 }
-.contact {
-  padding-top: 120px;
-}
+
 .contact > btn-one {
   float: right;
 }
@@ -346,7 +349,7 @@ button:hover {
 
 .lead-about {
   background: #000;
-  margin-bottom: 4.9%;
+  margin-bottom: 10%;
 }
 
 .about {
