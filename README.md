@@ -1,4 +1,6 @@
-# hello
+# Hello World
 
-tis the season
-shoutout 2 @bgian
+tis the season for a new website
+shoutout 2 @lookstudios @bgian @joe for static starter.
+
+
