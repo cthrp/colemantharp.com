@@ -1,0 +1,50 @@
+// Grid
+.wrap {
+  margin: 0 auto;
+  padding: 0 auto;
+  max-width: $wrap;
+  width: 90%;
+}
+
+//Flex
+.level {
+	display: flex;
+
+	.flex {
+		flex: 1;
+	}
+}
+
+// Colors
+.t-black { color: $text-black }
+.bg-white { background-color: $bg-white }
+.t-grey {color: $text-grey }
+
+// Typography
+h1 {
+  font-weight: $text-weight-regular;
+  font-size: 3em;
+}
+
+h2 {
+  font-weight: $text-weight-regular;
+  font-size: 2em;
+}
+
+p {
+  color: $text-grey;
+  line-height: 2;
+  font-size: 1.125em;
+}
+
+// Links
+a {
+  color: $text-black;
+  text-decoration: none;
+}
+
+// Images
+img {
+  width: 50%;
+  height: 50%;
+}

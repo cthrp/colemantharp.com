@@ -1,0 +1,49 @@
+// Fonts
+$text-font-stack: 'Graphik', sans-serif !default;
+$text-weight-light: 300 !default;
+$text-weight-regular: 400 !default;
+$text-weight-medium: 500 !default;
+$text-weight-bold: 700 !default;
+
+
+// Colors
+$text-black: #202024 !default;
+$bg-white: #FFFFFF !default;
+$text-grey: #626265 !default;
+$grey: #E4E4E4 !default;
+$text-secondary: #A6A6A7;
+$blue: #1C94E9;
+
+// Wraps
+$wrap: 1200px !default;
+
+// Responsive
+@media(max-width: 1100px){
+  body {
+    font-size: 80%;
+  }
+}
+@media(max-width: 730px){
+  .about {
+    width: 100% !important;
+    float: none;
+    padding-bottom: 30px;
+  }
+  .contact-info {
+    width: 100% !important;
+    float: none;
+    padding-bottom: 30px;
+  }
+  section.wrap.project {
+    height: auto !important;
+  }
+  .teaser {
+    width: 100% !important;
+    float: none !important;
+    // height: 50% !important;
+  }
+  .contact-form {
+    width: 100% !important;
+    float: none !important;
+  }
+}
