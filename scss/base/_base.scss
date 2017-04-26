@@ -1,0 +1,202 @@
+/// Resets ///
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: $text-font-stack;
+  color: $text-black;
+  background-color: $bg-white;
+  line-height: 2;
+  font-size: 1em;
+  -webkit-font-smoothing: antialiased;
+}
+
+li {  list-style: none; }
+
+/// Header ///
+
+header {
+  padding-top: 2em;
+  padding-bottom: 2em;
+  height: 75px;
+  background-color: #fff;
+  font-size: 1.125em;
+}
+
+nav {
+  float: right;
+  display: block;
+}
+
+a:hover {
+  color: $blue;
+}
+
+
+// Lead ///
+
+section.lead.wrap {
+  margin-top: 14%;
+  margin-bottom: 14%;
+}
+
+nav {
+  float: right;
+}
+
+nav li {
+  list-style: none;
+  float: left;
+  padding-left: 34px;
+}
+
+// Work //
+
+.teaser {
+  float: right;
+  width: 68%;
+  height: auto;
+  border-radius: 8px;
+  max-height: 600px;
+}
+
+section.wrap.project {
+  height: 600px;
+  margin-top: 110px;
+  margin-bottom: 140px;
+}
+
+.about {
+  // border-top: 1px $grey solid;
+  width: 27%;
+  // padding-top: 40px;
+  float: left;
+}
+
+.role {
+  font-weight: $text-weight-medium;
+  font-size: 0.875rem;
+  color: $text-secondary;
+  padding-top: 10px;
+}
+
+// Contact Links //
+
+.footer {
+  // background-color: #F4F4F9;
+  // border-top: 1px #E8E8E9 solid;
+  width: 100%;
+  height: 600px;
+  padding-bottom: 4%;
+}
+
+.contact-links {
+  margin-top: 10px;
+  float: left;
+}
+
+.contact-links li {
+  padding-bottom: 20px;
+}
+
+
+.contact-links li a {
+  border-bottom: 2px $blue solid;
+  -webkit-transition: 0.1s ease-in;
+   -moz-transition: 0.1s ease-in;
+   -o-transition: 0.1s ease-in;
+   -ms-transition: 0.1s ease-in;
+   transition: 0.1s ease-in;
+   padding-bottom: 10px;
+}
+
+.contact-links li a:hover {
+  color: $blue;
+   padding-bottom: 12px;
+}
+
+.contact-info {
+  width: 27%;
+  float: left;
+}
+
+// Contact Form ///
+
+.contact-form {
+  float: right;
+  width: 68%;
+}
+
+input {
+  width: 100%;
+  height: 52px;
+  padding: 16px;
+  margin-bottom: 16px;
+  border: 1px solid $grey;
+  border-radius: 4px;
+  font-size: 1rem;
+  color: $grey;
+  color: $text-black;
+}
+
+textarea {
+  width: 100%;
+  height: 160px;
+  padding: 16px;
+  margin-bottom: 16px;
+  border: 1px solid $grey;
+  border-radius: 4px;
+  font-size: 1rem;
+  color: $text-black;
+}
+
+input:focus {
+  border: solid  $blue 1px;
+  outline: none;
+  box-shadow: 0 1px 2px 0 rgba(0,0,0,0.07);
+}
+
+textarea[name=message]:focus {
+  border: solid 1px $blue;
+  outline: none;
+  box-shadow: 0 1px 2px 0 rgba(0,0,0,0.07);
+}
+
+button {
+  float: right;
+  font-weight: $text-weight-regular;
+  font-family: inherit;
+  cursor: pointer;
+  height: 52px;
+  color: #000;
+  padding: 12px 22px 12px 22px;
+  -webkit-transition: 0.1s ease-in;
+   -moz-transition: 0.1s ease-in;
+   -o-transition: 0.1s ease-in;
+   -ms-transition: 0.1s ease-in;
+   transition: 0.1s ease-in;
+   background: #2599EB;
+   border: 1px solid #2599EB;
+   border-radius: 4px;
+   font-family: inherit;
+   font-size: 1rem;
+   color: #fff;
+   letter-spacing: 0;
+   line-height: 24px;
+   text-align: center;
+   width: 100%;
+}
+
+button:hover {}
+
+// Profile
+.avatar {
+
+  width: 20%;
+  margin-bottom: 20px;
+  border-radius: 100%;
+}

@@ -1,0 +1,78 @@
+// Fonts
+$text-font-stack: 'Graphik', sans-serif !default;
+$text-weight-light: 300 !default;
+$text-weight-regular: 400 !default;
+$text-weight-medium: 500 !default;
+$text-weight-bold: 700 !default;
+
+@font-face {
+	font-family: 'Graphik';
+	src: url('./fonts/Graphik-Medium.eot');
+	src: url('./fonts/Graphik-Medium.eot?#iefix') format('embedded-opentype'),
+		url('./fonts/Graphik-Medium.woff') format('woff'),
+		url('./fonts/Graphik-Medium.ttf') format('truetype');
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Graphik';
+	src: url('./fonts/Graphik-Regular.eot');
+	src: url('./fonts/Graphik-Regular.eot?#iefix') format('embedded-opentype'),
+		url('./fonts/Graphik-Regular.woff') format('woff'),
+		url('./fonts/Graphik-Regular.ttf') format('truetype');
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Graphik';
+	src: url('./fonts/Graphik-Semibold.eot');
+	src: url('./fonts/Graphik-Semibold.eot?#iefix') format('embedded-opentype'),
+		url('./fonts/Graphik-Semibold.woff') format('woff'),
+		url('./fonts/Graphik-Semibold.ttf') format('truetype');
+	font-weight: 600;
+	font-style: normal;
+}
+
+// Colors
+$text-black: #202024 !default;
+$bg-white: #FFFFFF !default;
+$text-grey: #626265 !default;
+$grey: #E4E4E4 !default;
+$text-secondary: #A6A6A7;
+$blue: #1C94E9;
+
+// Wraps
+$wrap: 1200px !default;
+
+// Responsive
+@media(max-width: 1100px){
+  body {
+    font-size: 80%;
+  }
+}
+@media(max-width: 730px){
+  .about {
+    width: 100% !important;
+    float: none;
+    padding-bottom: 30px;
+  }
+  .contact-info {
+    width: 100% !important;
+    float: none;
+    padding-bottom: 30px;
+  }
+  section.wrap.project {
+    height: auto !important;
+  }
+  .teaser {
+    width: 100% !important;
+    float: none !important;
+    // height: 50% !important;
+  }
+  .contact-form {
+    width: 100% !important;
+    float: none !important;
+  }
+}
